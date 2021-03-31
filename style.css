@@ -1,0 +1,42 @@
+h1 {
+color:rebeccapurple
+}
+.header{
+background-color: violet;
+display:flex;
+justify-content: center;
+}
+.header1 {
+color:gold;
+background-color: indianred;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header2 {
+color:yellowgreen;
+background-color: turquoise;
+display:flex;
+justify-content: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+background-image: url("bg gif.gif");
+}
+a:link{
+color:indigo;
+}
+a:visited{
+color:purple;
+}
+.item:hover img{
+opacity: 0.3;
+}
+.futer {
+width: 100px;
+height: 100px;
+position: relative;
+animation: mymove 5s infinite;
+}
+@keyframes mymove {
+from {left: 50px}
+to {right: 50px}
+}
